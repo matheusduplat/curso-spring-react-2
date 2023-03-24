@@ -8,8 +8,14 @@ export default function Header() {
         <h1>DSMeta</h1>
         <p>
           Desenvolvido por
-          <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a>
+          <a
+            style={{marginLeft: "5px"}}
+            href="https://github.com/matheusduplat"
+          >
+            Matheus Duplat
+          </a>
         </p>
+        <p>Curso devsuperior</p>
       </div>
     </header>
   );

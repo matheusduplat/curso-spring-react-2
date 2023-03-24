@@ -29,7 +29,7 @@ public class SaleController {
 		return saleService.findSales(minDate,maxDate,pageable);
 	}
 	@GetMapping("/{id}/notification")
-	public void notifySms(@PathVariable Long id) {
-		smsService.sendSms(id);
+	public String notifySms(@PathVariable Long id) {
+		return smsService.sendSms(id);
 	}
 }
